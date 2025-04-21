@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { RxCross2 } from 'react-icons/rx'
 import Card2 from '../components/Card2'
 import { toast } from 'react-toastify'
-import { ClearCart, RemoveItem } from '../redux/CartSlice'
+import { ClearCart, RemoveItem } from '../redux/cartSlice' 
 
 
 const Home = () => {

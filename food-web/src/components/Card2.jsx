@@ -2,7 +2,7 @@ import React, { use } from 'react'
 // import image1 from '../assets/image1.avif'
 import { RiDeleteBin6Line } from 'react-icons/ri'
 import { useDispatch } from 'react-redux';
-import { decItem, incItem, RemoveItem } from '../redux/CartSlice';
+import { decItem, incItem, RemoveItem } from '../redux/cartSlice';
 import { toast } from 'react-toastify';
 
 const Card2 = ({name, price, id, qty, image}) => {
